@@ -13,7 +13,7 @@ Checks:
 
 Usage:
   python qc_ccc.py <ccc_csv> <output_dir>
-  python qc_ccc.py data/processed/collisions/ccc/ccc_crosssections.csv figures/week2
+  python src/parsers/qc_ccc.py data/processed/collisions/ccc/ccc_crosssections.csv figures/week2
 
 Output:
   <output_dir>/ccc_qc_report.png   — QC summary figure

@@ -1,0 +1,22 @@
+\begin{table}
+\caption{Multi-point robustness sweep of transient Hα/Hβ ratio error.}
+\label{tab:balmer_transient_robustness}
+\begin{tabular}{lrrrrrrrrrrr}
+\toprule
+sweep_type & Te_old_grid_eV & ne_grid_cm-3 & DeltaTe_actual_eV & Te_new_grid_eV & peak_ratio_error_percent_abs & t_peak_ratio_ns & last_t_ratio_abs_error_gt_5pct_us & last_t_ratio_abs_error_gt_10pct_us & tau_fast_ns & tau_slow_us & M_tau_slow_over_tau_fast \\
+\midrule
+density_sweep & 2.95 & 7.2e+12 & 0.609 & 3.56 & 42.6 & 75.8 & 100 & 100 & 10.3 & 338 & 3.29e+04 \\
+density_sweep & 2.95 & 1.39e+14 & 0.609 & 3.56 & 32.7 & 17.2 & 20.1 & 12.5 & 2.16 & 10.5 & 4.84e+03 \\
+density_sweep & 2.95 & 1e+15 & 0.609 & 3.56 & 21 & 0.254 & 0.538 & 0.00105 & 1.19 & 0.833 & 702 \\
+temperature_sweep & 2.02 & 1.39e+14 & 0.306 & 2.33 & 39.2 & 24.5 & 100 & 100 & 2.48 & 73.6 & 2.97e+04 \\
+temperature_sweep & 2.02 & 1.39e+14 & 0.659 & 2.68 & 105 & 23.1 & 100 & 88.8 & 2.35 & 35.3 & 1.5e+04 \\
+temperature_sweep & 2.02 & 1.39e+14 & 1.07 & 3.09 & 189 & 21.8 & 74.3 & 62.2 & 2.25 & 18.5 & 8.23e+03 \\
+temperature_sweep & 2.95 & 1.39e+14 & 0.29 & 3.24 & 14.3 & 2.89 & 15 & 4.84 & 2.22 & 15.2 & 6.84e+03 \\
+temperature_sweep & 2.95 & 1.39e+14 & 0.609 & 3.56 & 32.7 & 17.2 & 20.1 & 12.5 & 2.16 & 10.5 & 4.84e+03 \\
+temperature_sweep & 2.95 & 1.39e+14 & 0.96 & 3.91 & 57.1 & 16.2 & 19 & 13.3 & 2.12 & 7.45 & 3.52e+03 \\
+temperature_sweep & 4.94 & 1.39e+14 & 0.238 & 5.18 & 4.81 & 1.91 & 0 & 0 & 2.01 & 3.13 & 1.55e+03 \\
+temperature_sweep & 4.94 & 1.39e+14 & 0.487 & 5.43 & 9.92 & 1.91 & 1.24 & 0 & 2 & 2.76 & 1.38e+03 \\
+temperature_sweep & 4.94 & 1.39e+14 & 1.02 & 5.96 & 21.1 & 2.03 & 2.67 & 1.24 & 1.98 & 2.18 & 1.1e+03 \\
+\bottomrule
+\end{tabular}
+\end{table}

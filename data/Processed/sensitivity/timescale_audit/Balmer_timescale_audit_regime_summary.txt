@@ -1,0 +1,33 @@
+Balmer timescale audit: regime summary
+====================================================
+
+Definition used:
+  tau_slow = largest positive post-step decay time from eigenvalues of L_new
+  tau_fast = second-largest positive post-step decay time from eigenvalues of L_new
+  M        = tau_slow / tau_fast
+  last_t   = last sampled time at which |Halpha/Hbeta error| exceeds threshold
+             not integrated duration
+
+Regime cases: 240
+Peak ratio error >= 10%: 212/240
+Peak ratio error >= 20%: 160/240
+Peak ratio error >= 50%: 76/240
+Cases censored at >10% threshold: 54/240
+
+Nearest benchmark-grid row:
+  Te_old_grid_eV: 2.9470517025518106
+  Te_new_grid_eV: 3.5564803062231287
+  ne_grid_cm-3: 138949549437313.6
+  DeltaTe_actual_eV: 0.6094286036713181
+  peak_ratio_error_percent_abs: 32.70191573714818
+  last_t_ratio_abs_error_gt_10pct_us: 12.479362054713114
+  censored_gt_10pct: False
+  tau_fast_ns: 2.161808617453192
+  tau_slow_us: 10.470691708763308
+  M_tau_slow_over_tau_fast: 4843.486895291748
+
+Stale-number warning:
+  Old thesis/example tau_relax: 25 ns
+  Old thesis/example tau_QSS:   15.3 us
+  Old thesis/example M:         611
+  Do not reuse these unless their definition is rederived and matched to the current matrix/grid.
